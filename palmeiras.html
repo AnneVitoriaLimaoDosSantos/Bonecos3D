@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Porcolino</title>
+<link rel="stylesheet" href="produtos.css">
+</head>
+<body>
+
+<div class="produto">
+
+    <div class="galeria">
+
+        <img
+        id="imagem-principal"
+        src="3(15).png">
+
+        <div class="miniaturas">
+
+            <img
+            src="3(15).png"
+            onclick="trocarImagem(this)">
+
+            <img
+            src="3(15).png"
+            onclick="trocarImagem(this)">
+
+            <img
+            src="3(15).png"
+            onclick="trocarImagem(this)">
+
+        </div>
+
+    </div>
+
+    <div class="info">
+
+        <h1>PORCOLINO</h1>
+
+        <h2>R$ 149,90</h2>
+
+        <p>
+            Mascote colecionável oficial inspirado
+            no Palmeiras.
+        </p>
+
+        <ul>
+            <li>25cm de altura</li>
+            <li>Pintura premium</li>
+            <li>Material resistente</li>
+            <li>Ótimo para colecionar</li>
+        </ul>
+
+        <a
+        href="https://wa.me/5511999999999?text=Tenho interesse no Porcolino"
+        target="_blank"
+        class="btn-whatsapp">
+
+        COMPRAR PELO WHATSAPP
+
+        </a>
+
+    </div>
+
+</div>
+
+<script>
+
+function trocarImagem(img){
+    document.getElementById(
+        "imagem-principal"
+    ).src = img.src;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    font-family:Poppins,sans-serif;
+    background:#f7f7f7;
+}
+
+.produto{
+    max-width:1300px;
+    margin:60px auto;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+}
+
+#imagem-principal{
+    width:100%;
+    background:#fff;
+    border-radius:15px;
+}
+
+.miniaturas{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+
+.miniaturas img{
+    width:120px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+.info h1{
+    font-size:55px;
+    font-family:'Bebas Neue',sans-serif;
+    margin-bottom:10px;
+    line-height:.9;
+}
+
+.info h2{
+    color:#ff2323;
+    font-size:48px;
+    font-weight:700;
+    margin:20px 0;
+}
+
+.info p{
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.info ul{
+    margin:25px 0;
+}
+
+.info li{
+    margin-bottom:12px;
+    font-size:17px;
+    color:#333;
+}
+
+.info li{
+    margin-bottom:10px;
+}
+
+.btn-whatsapp{
+    width:100%;
+    max-width:400px;
+    height:65px;
+
+    background:#35b84b;
+
+    color:#fff;
+
+    border-radius:10px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:700;
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.btn-whatsapp:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 10px 25px rgba(53,184,75,.35);
+}
